@@ -1,0 +1,10 @@
+{
+  "entrypoints": {
+    "back": {
+      "js": [
+        "/admin/build/runtime.js",
+        "/admin/build/back.js"
+      ]
+    }
+  }
+}

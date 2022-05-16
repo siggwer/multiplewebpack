@@ -3,7 +3,9 @@ webpack_encore:
     output_path: '%kernel.project_dir%/public/build'
     # If multiple builds are defined (as shown below), you can disable the default build:
     # output_path: false
-
+    builds:
+        frontend: '%kernel.project_dir%/public/front/build'
+        admin: '%kernel.project_dir%/public/admin/build'
     # Set attributes that will be rendered on all script and link tags
     script_attributes:
         defer: true

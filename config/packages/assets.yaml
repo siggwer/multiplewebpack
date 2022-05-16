@@ -1,0 +1,7 @@
+framework:
+  assets:
+    json_manifest_path: '%kernel.project_dir%/public/front/build/manifest.json'
+
+    packages:
+      admin:
+        json_manifest_path: '%kernel.project_dir%/public/admin/build/manifest.json'
